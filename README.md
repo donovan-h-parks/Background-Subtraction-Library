@@ -1,5 +1,5 @@
 # Overview
-This library containing 7 popular background subtraction algorithms: 
+This library containing 7 popular background subtraction algorithms:
 * adaptive median filtering
 * eigenbackground
 * single Gaussian
@@ -16,6 +16,19 @@ This library makes use of [OpenCV](http://opencv.org/).
 	$ cd _build
 	$ cmake ..
 	$ make
+
+# Building Python Interface
+
+1. Install OpenCV with Python bindings enabled.
+2. Edit **include_dirs** in the `setup.py`.
+3. Build the cython module:
+
+		$ pip install numpy cython
+		$ python setup.py build_ext --inplace
+
+4. Test the module using stream from the webcam:
+
+		$ python pybgs_test.py
 
 # Citation
 

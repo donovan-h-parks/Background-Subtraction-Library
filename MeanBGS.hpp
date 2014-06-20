@@ -37,6 +37,9 @@ Example:
 		bgs.Initalize(params);
 ******************************************************************************/
 
+#ifndef _MEAN_BGS_H_
+#define _MEAN_BGS_H_		
+
 #include "Bgs.hpp"
 
 namespace Algorithms
@@ -93,7 +96,4 @@ private:
 };
 };
 
-
-
-
-
+#endif
