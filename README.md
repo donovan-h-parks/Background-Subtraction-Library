@@ -8,7 +8,7 @@ This library containing 7 popular background subtraction algorithms:
 * running mean
 *  mediod filtering
 
-This library makes use of OpenCV: http://opencv.org/.
+This library makes use of [OpenCV](http://opencv.org/).
 
 # Citation
 
