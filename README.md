@@ -10,6 +10,13 @@ This library containing 7 popular background subtraction algorithms:
 
 This library makes use of [OpenCV](http://opencv.org/).
 
+# Building with CMake
+
+	$ mkdir _build
+	$ cd _build
+	$ cmake ..
+	$ make
+
 # Citation
 
 If you find this software useful, please consider citing:
