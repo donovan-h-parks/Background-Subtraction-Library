@@ -45,7 +45,7 @@ void AdaptiveMedianBGS::InitModel(const RgbImage& data)
 
 void AdaptiveMedianBGS::Update(int frame_num, const RgbImage& data,  const BwImage& update_mask)
 {
-	if(frame_num % m_params.SamplingRate() == 1)
+	if((frame_num % m_params.SamplingRate() == 1) || (frame_num < m_params.LearningFrames()))
 	{
 		// update background model
 		for (unsigned int r = 0; r < m_params.Height(); ++r)
