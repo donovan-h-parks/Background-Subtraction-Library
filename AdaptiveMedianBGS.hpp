@@ -37,6 +37,8 @@ Example:
 		Algorithms::BackgroundSubtraction::AdaptiveMedianBGS bgs;
 		bgs.Initalize(params);
 ******************************************************************************/
+#ifndef _ADAPTIVE_MEDIAN_BGS_H_		
+#define _ADAPTIVE_MEDIAN_BGS_H_		
 
 #include "Bgs.hpp"
 
@@ -90,3 +92,5 @@ private:
 
 };
 };
+
+#endif
