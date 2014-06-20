@@ -93,7 +93,7 @@ void Eigenbackground::Subtract(int frame_num, const RgbImage& data,
 			{
 				for(int ch = 0; ch < m_background.Ptr()->nChannels; ++ch)
 				{
-					m_background(r,c,0) = unsigned char(cvmGet(m_pcaAvg,0,index)+0.5);
+					m_background(r,c,0) = (unsigned char)(cvmGet(m_pcaAvg,0,index)+0.5);
 					index++;
 				}
 			}
