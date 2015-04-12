@@ -38,7 +38,7 @@ If you find this software useful, please consider citing:
 
 # License
 
-This software is released under GNE General Public License version 3. See LICENSE.txt for further details.
+This software is released under GNU General Public License version 3. See LICENSE.txt for further details.
 
 # Contact
 
