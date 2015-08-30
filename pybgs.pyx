@@ -119,7 +119,7 @@ cdef extern from "create_params_wrapper.hpp":
     unsigned int low_threshold, unsigned int high_threshold,    
     float alpha, int learning_frames)
 
-    BgsParams CreatePratiMediodBGSParams(int width, int height,
+    PratiParams CreatePratiMediodBGSParams(int width, int height,
     unsigned int low_threshold, unsigned int high_threshold,    
     int weight, int sampling_rate, int history_size)
 
